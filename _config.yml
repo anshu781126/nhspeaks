@@ -23,16 +23,19 @@ email: anshu781126@yahoo.co.in
 description: >- # this means to ignore newlines until "baseurl:"
   We (Namrata & Himanshu) will be sharing our thoughts on various day to day stuffs.
   Right from Personal Finance, Home Schooling, Family, Health, Cooking, Technologies; Indian Education, etc.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/nhspeaks" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: longterm_greedy
 github_username:  anshu781126
-
+permalink: pretty
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
-
+collections:
+  comets:
+    output: true
+    permalink: /comets/:path/
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -52,3 +55,4 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+exclude: ['README.md']
