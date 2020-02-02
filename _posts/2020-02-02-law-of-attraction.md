@@ -1,6 +1,6 @@
 ---
-category: vedic maths
-description: One of the multiplication methods.
+category: personal finance
+description: how to shape your thoughts
 ---
 
-Navya loves duplex multiplication method.
+Navya knows how to make law of attraction work for her.
